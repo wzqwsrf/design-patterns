@@ -1,4 +1,4 @@
-package factory;
+package strategy;
 
 /**
  * @author: wangzhenqing
