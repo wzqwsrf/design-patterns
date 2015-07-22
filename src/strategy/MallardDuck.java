@@ -5,8 +5,8 @@ package factory;
  * @date: 2015-07-22 11:07:20
  * @description: 绿头鸭
  */
-public class MallarDuck extends Duck {
-    public MallarDuck(){
+public class MallardDuck extends Duck {
+    public MallardDuck(){
         flyBehavior = new FlyWithWings();
         quackBehavior = new Quack();
     }

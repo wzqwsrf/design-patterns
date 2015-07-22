@@ -7,7 +7,7 @@ package factory;
  */
 public class MiniDuckSimulator {
     public static void main(String[] args) {
-        Duck duck = new MallarDuck();
+        Duck duck = new MallardDuck();
         duck.performFly();
         duck.performQuack();
         duck.display();
