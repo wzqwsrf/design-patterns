@@ -6,4 +6,4 @@
  
 - **类图**
   
-  ![类图在这里]()
+  ![类图在这里](https://github.com/wzqwsrf/design-patterns/blob/master/pictures/strategy.png)
