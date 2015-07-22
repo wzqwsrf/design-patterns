@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  MiniDuckSimulator
+  [MiniDuckSimulator](https://github.com/wzqwsrf/design-patterns/blob/master/src/strategy/MiniDuckSimulator.java)
