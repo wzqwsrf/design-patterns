@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [MiniDuckSimulator](https://github.com/wzqwsrf/design-patterns/blob/master/src/observer/WeatherStation.java)
+  [WeatherStation](https://github.com/wzqwsrf/design-patterns/blob/master/src/observer/WeatherStation.java)

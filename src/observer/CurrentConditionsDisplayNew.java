@@ -5,8 +5,8 @@ import java.util.Observer;
 
 /**
  * @author: wangzhenqing
- * @date:
- * @description:
+ * @date: 2015-07-23 15:48:56
+ * @description: 重写类
  */
 public class CurrentConditionsDisplayNew implements Observer, DisplayElement {
 
