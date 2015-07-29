@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [WeatherStation](https://github.com/wzqwsrf/design-patterns/blob/master/src/factory/first/PizzaTestDrive.java)
+  [PizzaTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/factory/first/PizzaTestDrive.java)
