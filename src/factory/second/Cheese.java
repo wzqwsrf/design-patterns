@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 10:41:53
  * @description: 奶酪
  */
-public class Cheese {
+public interface Cheese {
 }

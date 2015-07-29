@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:19:38
  * @description: 冷冻蛤
  */
-public class FrozenClams extends Clams {
+public class FrozenClams implements Clams {
 }

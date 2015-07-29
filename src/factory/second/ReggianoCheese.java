@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:23:40
  * @description: 意大利特级帕玛森奶酪
  */
-public class ReggianoCheese extends Cheese {
+public class ReggianoCheese implements Cheese {
 }

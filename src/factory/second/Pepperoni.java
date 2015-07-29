@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 10:40:54
  * @description: 意大利辣香肠
  */
-public class Pepperoni {
+public interface Pepperoni {
 }

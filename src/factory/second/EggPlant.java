@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:18:51
  * @description: 茄子
  */
-public class EggPlant extends Veggies {
+public class EggPlant implements Veggies {
 }

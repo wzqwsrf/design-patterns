@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 10:39:42
  * @description: 生面团
  */
-public class Dough {
+public interface Dough {
 }

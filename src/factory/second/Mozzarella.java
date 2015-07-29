@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:20:34
  * @description: 意大利干酪（色白味淡）
  */
-public class Mozzarella extends Cheese {
+public class Mozzarella implements Cheese {
 }

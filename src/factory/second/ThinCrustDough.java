@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:25:11
  * @description: 薄外壳
  */
-public class ThinCrustDough extends Dough {
+public class ThinCrustDough implements Dough {
 }

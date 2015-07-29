@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:21:40
  * @description: 洋葱（头）
  */
-public class Onion extends Veggies {
+public class Onion implements Veggies {
 }

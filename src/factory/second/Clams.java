@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 10:40:14
  * @description: 蛤
  */
-public class Clams {
+public interface Clams {
 }

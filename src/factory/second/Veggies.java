@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:25:51
  * @description: 蔬菜
  */
-public class Veggies {
+public interface Veggies {
 }

@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:19:08
  * @description: 新鲜蛤
  */
-public class FreshClams extends Clams {
+public class FreshClams implements Clams {
 }

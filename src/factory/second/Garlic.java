@@ -5,5 +5,5 @@ package factory.second;
  * @date: 2015-07-29 11:19:57
  * @description: 大蒜
  */
-public class Garlic extends Veggies {
+public class Garlic implements Veggies {
 }
