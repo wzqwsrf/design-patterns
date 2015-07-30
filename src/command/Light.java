@@ -6,7 +6,17 @@ package command;
  * @description: 灯
  */
 public class Light {
-    public void on(){
-        System.out.println("Light is on!");
+    String name;
+
+    public Light(String name) {
+        this.name = name;
+    }
+
+    public void on() {
+        System.out.println(name + " Light is on!");
+    }
+
+    public void off() {
+        System.out.println(name + " Light is off!");
     }
 }

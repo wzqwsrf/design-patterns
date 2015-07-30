@@ -3,23 +3,23 @@ package command;
 /**
  * @author: wangzhenqing
  * @date: 2015-07-30 15:10:16
- * @description: 开灯具体动作
+ * @description: 关灯具体动作
  */
-public class LightOnCommand implements Command{
+public class LightOffCommand implements Command{
 
     Light light;
 
-    public LightOnCommand(Light light) {
+    public LightOffCommand(Light light) {
         this.light = light;
     }
 
     @Override
     public void execute() {
-        light.on();
+        light.off();
     }
 
     @Override
     public void undo() {
-        light.off();
+        light.on();
     }
 }

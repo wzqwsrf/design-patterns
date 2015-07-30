@@ -6,7 +6,17 @@ package command;
  * @description: 开门动作
  */
 public class GarageDoor {
-    public void up(){
-        System.out.println("Garage Door is Open!");
+    String name;
+
+    public GarageDoor(String name) {
+        this.name = name;
+    }
+
+    public void up() {
+        System.out.println(name + " Garage Door is Open!");
+    }
+
+    public void down() {
+        System.out.println(name + " Garage Door is Close!");
     }
 }
