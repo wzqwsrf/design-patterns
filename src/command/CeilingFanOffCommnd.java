@@ -2,8 +2,8 @@ package command;
 
 /**
  * @author: wangzhenqing
- * @date:
- * @description:
+ * @date: 2015-07-31 10:38:06
+ * @description: 关闭风扇
  */
 public class CeilingFanOffCommnd implements Command{
 
