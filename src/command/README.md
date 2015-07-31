@@ -10,6 +10,6 @@
 
 - **测试类**
 
-  [RemoteControlTest](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteControlTest.java)
-  [RemoteLoader](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteLoader.java)
-  [RemoteLoaderCeilingFan](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteLoaderCeilingFan.java)
+  1. [RemoteControlTest](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteControlTest.java)
+  2. [RemoteLoader](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteLoader.java)
+  3. [RemoteLoaderCeilingFan](https://github.com/wzqwsrf/design-patterns/blob/master/src/command/RemoteLoaderCeilingFan.java)
