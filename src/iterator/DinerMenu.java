@@ -5,7 +5,7 @@ package iterator;
  * @date: 2015-08-04 17:40:20
  * @description: Mel的餐厅菜单
  */
-public class DinerMenu {
+public class DinerMenu implements Menu{
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;

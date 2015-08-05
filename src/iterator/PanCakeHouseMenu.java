@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @date: 2015-08-04 17:29:57
  * @description: 煎饼屋菜单实现
  */
-public class PanCakeHouseMenu {
+public class PanCakeHouseMenu implements Menu{
     ArrayList<MenuItem> menuItems;
 
     public PanCakeHouseMenu() {
