@@ -6,8 +6,8 @@ package iterator;
  * @description: 侍者
  */
 public class Waitress {
-    PanCakeHouseMenu panCakeHouseMenu;
-    DinerMenu dinerMenu;
+    Menu panCakeHouseMenu;
+    Menu dinerMenu;
 
     public Waitress(PanCakeHouseMenu panCakeHouseMenu, DinerMenu dinerMenu) {
         this.panCakeHouseMenu = panCakeHouseMenu;
