@@ -6,7 +6,7 @@ import java.util.Iterator;
 /**
  * @author: wangzhenqing
  * @date: 2015-08-05 14:49:32
- * @description: 菜单
+ * @description: 菜单项
  */
 public class Menu extends MenuComponent {
     ArrayList<MenuComponent> menuComponents;

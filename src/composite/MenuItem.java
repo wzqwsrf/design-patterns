@@ -3,7 +3,7 @@ package composite;
 /**
  * @author: wangzhenqing
  * @date: 2015-08-05 14:47:08
- * @description: 菜单项
+ * @description: 菜单
  */
 public class MenuItem extends MenuComponent {
     String name;
