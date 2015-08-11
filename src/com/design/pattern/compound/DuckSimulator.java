@@ -1,4 +1,4 @@
-package compound;
+package com.design.pattern.compound;
 
 /**
  * @author: wangzhenqing
