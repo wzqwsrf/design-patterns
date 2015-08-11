@@ -1,4 +1,4 @@
-package com.design.pattern.compound;
+package com.design.pattern.compound.ducks;
 
 /**
  * @author: wangzhenqing

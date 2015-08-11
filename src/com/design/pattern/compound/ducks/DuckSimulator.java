@@ -1,4 +1,7 @@
-package com.design.pattern.compound;
+package com.design.pattern.compound.ducks;
+
+import com.design.pattern.compound.adapter.Goose;
+import com.design.pattern.compound.adapter.GooseAdapter;
 
 /**
  * @author: wangzhenqing
@@ -17,7 +20,6 @@ public class DuckSimulator {
         Quackable redheadDuck = new RedHeadDuck();
         Quackable duckCall = new DuckCall();
         Quackable rubberDuck = new RubberDuck();
-        Quackable goose = new GooseAdapter(new Goose());
 
         System.out.println("\nDuck Simulator");
 
@@ -25,7 +27,6 @@ public class DuckSimulator {
         simulator(redheadDuck);
         simulator(duckCall);
         simulator(rubberDuck);
-        simulator(goose);
     }
 
     private void simulator(Quackable duck) {

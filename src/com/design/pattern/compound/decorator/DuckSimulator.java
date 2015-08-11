@@ -1,14 +1,18 @@
-package com.design.pattern.compound;
+package com.design.pattern.compound.decorator;
+
+import com.design.pattern.compound.adapter.Goose;
+import com.design.pattern.compound.adapter.GooseAdapter;
+import com.design.pattern.compound.ducks.*;
 
 /**
  * @author: wangzhenqing
  * @date: 2015-08-11 11:12:55
  * @description: 鸭子模拟器，统计叫声次数
  */
-public class DuckSimulator1 {
+public class DuckSimulator {
 
     public static void main(String[] args) {
-        DuckSimulator1 duckSimulator = new DuckSimulator1();
+        DuckSimulator duckSimulator = new DuckSimulator();
         duckSimulator.simulator();
     }
 

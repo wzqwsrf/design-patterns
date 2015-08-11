@@ -1,11 +1,13 @@
-package com.design.pattern.compound;
+package com.design.pattern.compound.decorator;
+
+import com.design.pattern.compound.ducks.Quackable;
 
 /**
  * @author: wangzhenqing
  * @date: 2015-08-11 11:09:59
  * @description: 装饰器，功能是统计鸭子叫次数
  */
-public class QuackCounter implements Quackable{
+public class QuackCounter implements Quackable {
 
     static int numberOfQuacks;
 
