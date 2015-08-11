@@ -1,7 +1,5 @@
 package com.design.pattern.compound.observer;
 
-import java.util.Observer;
-
 /**
  * @author: wangzhenqing
  * @date: 2015-08-10 15:26:48

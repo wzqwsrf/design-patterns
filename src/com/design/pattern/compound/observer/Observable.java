@@ -18,7 +18,7 @@ public class Observable implements QuackObservable{
 
     @Override
     public void registerObserver(Observer observer) {
-        observers.add(duck);
+        observers.add(observer);
     }
 
     @Override
