@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [HomeTheaterTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/facade/HomeTheaterTestDrive.java)
+  [HomeTheaterTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/facade/HomeTheaterTestDrive.java)

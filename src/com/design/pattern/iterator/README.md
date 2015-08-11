@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [MenuTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/iterator/MenuTestDrive.java)
+  [MenuTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/iterator/MenuTestDrive.java)

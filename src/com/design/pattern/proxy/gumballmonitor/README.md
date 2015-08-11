@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [GumballMachineTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/state/GumballMachineTestDrive.java)
+  [GumballMachineTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/state/GumballMachineTestDrive.java)

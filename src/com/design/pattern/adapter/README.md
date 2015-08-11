@@ -8,6 +8,5 @@
   
 
 - **测试类**
-
-  - [DuckTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/adapter/DuckTestDrive.java)
-  - [TurkeyTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/adapter/TurkeyTestDrive.java)
+  - [DuckTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/adapter/DuckTestDrive.java)
+  - [TurkeyTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/adapter/TurkeyTestDrive.java)

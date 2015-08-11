@@ -10,5 +10,5 @@
 
 - **测试类**
 
-  - [BeverageTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/template/BeverageTestDrive.java)
-  - [BeverageTestDriveWithHook](https://github.com/wzqwsrf/design-patterns/blob/master/src/template/BeverageTestDriveWithHook.java)
+  - [BeverageTestDrive](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/template/BeverageTestDrive.java)
+  - [BeverageTestDriveWithHook](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/template/BeverageTestDriveWithHook.java)

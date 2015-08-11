@@ -10,4 +10,4 @@
 
 - **测试类**
 
-  [StarbuzzCoffee](https://github.com/wzqwsrf/design-patterns/blob/master/src/decorator/StarbuzzCoffee.java)
+  [StarbuzzCoffee](https://github.com/wzqwsrf/design-patterns/blob/master/src/com/design/pattern/decorator/StarbuzzCoffee.java)
