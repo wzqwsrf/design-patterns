@@ -1,29 +1,31 @@
-package com.design.pattern.compound.decorator;
+package com.design.pattern.compound.factory;
 
 import com.design.pattern.compound.adapter.Goose;
 import com.design.pattern.compound.adapter.GooseAdapter;
+import com.design.pattern.compound.decorator.QuackCounter;
 import com.design.pattern.compound.ducks.*;
 
 /**
  * @author: wangzhenqing
- * @date: 2015-08-11 11:12:55
+ * @date: 2015-08-11 15:31:46
  * @description: 鸭子模拟器，统计叫声次数
  */
 public class DuckSimulator {
 
     public static void main(String[] args) {
         DuckSimulator duckSimulator = new DuckSimulator();
-        duckSimulator.simulate();
+        AbstractDuckFactory factory = new CountingDuckFactory();
+        duckSimulator.simulate(factory);
     }
 
-    public void simulate() {
-        Quackable mallardDuck = new QuackCounter(new MallardDuck());
-        Quackable redheadDuck = new QuackCounter(new RedHeadDuck());
-        Quackable duckCall = new QuackCounter(new DuckCall());
-        Quackable rubberDuck = new QuackCounter(new RubberDuck());
+    public void simulate(AbstractDuckFactory factory) {
+        Quackable mallardDuck = factory.createMallardDuck();
+        Quackable redheadDuck = factory.createRedHeadDuck();
+        Quackable duckCall = factory.createDuckCall();
+        Quackable rubberDuck = factory.createRubberDuck();
         Quackable goose = new GooseAdapter(new Goose());
 
-        System.out.println("\nDuck Simulator: With Decorator");
+        System.out.println("\nDuck Simulator: With Abstract Factory");
 
         simulate(mallardDuck);
         simulate(redheadDuck);

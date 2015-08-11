@@ -11,10 +11,10 @@ public class DuckSimulator {
 
     public static void main(String[] args) {
         DuckSimulator duckSimulator = new DuckSimulator();
-        duckSimulator.simulator();
+        duckSimulator.simulate();
     }
 
-    public void simulator() {
+    public void simulate() {
         Quackable mallardDuck = new MallardDuck();
         Quackable redheadDuck = new RedHeadDuck();
         Quackable duckCall = new DuckCall();
@@ -23,14 +23,14 @@ public class DuckSimulator {
 
         System.out.println("\nDuck Simulator");
 
-        simulator(mallardDuck);
-        simulator(redheadDuck);
-        simulator(duckCall);
-        simulator(rubberDuck);
-        simulator(goose);
+        simulate(mallardDuck);
+        simulate(redheadDuck);
+        simulate(duckCall);
+        simulate(rubberDuck);
+        simulate(goose);
     }
 
-    private void simulator(Quackable duck) {
+    private void simulate(Quackable duck) {
         duck.quack();
     }
 }
