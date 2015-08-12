@@ -20,8 +20,6 @@ public class DuckSimulator {
         Quackable rubberDuck = factory.createRubberDuck();
         Quackable goose = new GooseAdapter(new Goose());
 
-        System.out.println("\nDuck Simulator: With Composite - Flocks");
-
         Flock flockOfDucks = new Flock();
         flockOfDucks.add(redheadDuck);
         flockOfDucks.add(duckCall);
